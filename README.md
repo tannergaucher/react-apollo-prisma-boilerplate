@@ -1,4 +1,4 @@
-# React, Next.js, Apollo, Prisma Boilerplate with JSON Webtoken Authentication
+# React, Apollo, Prisma Boilerplate with JSON Webtoken Authentication
 
 ---
 
@@ -66,7 +66,7 @@ Wrap protected pages inside <PleaseSignin/> higher order component.
 - Update `backend/src/schema.graphql` with new types
 - Redeploy to prisma `npm run deploy` whenever backend datamodel changes
 
-### Gotchas
+### Troubleshooting
 
 'TypeError: Cannot read property 'me' of undefined'
 
